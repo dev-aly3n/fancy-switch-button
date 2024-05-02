@@ -32,14 +32,14 @@ body {
   color: black;
   perspective: 3000px;
   perspective-origin: 50% 50%;
-  background: #c9ffed;
-  color: aquamarine;
+  background: white;
+  color: white;
 }
 
 h1 {
   display: inline-block;
   position: absolute;
-  top: 50%;
+  top: 55%;
   left: 50%;
   transform: translate3d(-50%, -50%, 0) rotate3d(1, 0, 0, 55deg) rotate3d(0, 0, 1, 45deg);
   font-family: "Roboto", sans-serif;
@@ -61,11 +61,14 @@ h1 {
 
 .container > .close,
 .container > .open {
-  margin-top: -270px;
-  letter-spacing: -10px;
-  font-size: 250px;
+  margin-top: -250px;
+  letter-spacing: 1px;
+  font-size: 150px;
 }
 
 .container > .close {
-  margin-top: 300px;
+  margin-top: 200px;
+}
+.container > .open {
+  margin-left: 100px;
 }

@@ -11,8 +11,8 @@ function Switch({ isOn, setOn }) {
   const onClick = useCallback(() => setOn(!isOn), [isOn])
 
   const lightVariants = {
-    on: { color: "#888" },
-    off: { color: "#000" }
+    on: { color: "white" },
+    off: { color: "gray" }
   }
 
   return (
@@ -128,6 +128,6 @@ export function Scene({ isOn, setOn }) {
 }
 
 const colorVariants = {
-  on: { color: "#7fffd4" },
-  off: { color: "#c72f46" }
+  on: { color: "#ffffff" },
+  off: { color: "#ffffff" }
 }
